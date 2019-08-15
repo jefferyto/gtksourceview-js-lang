@@ -270,8 +270,8 @@
             <context ref="_choice-parenthesized-type-or-function-type"/>
             <context ref="typescript-type-lit:choice-tuple-type-literal"/>
             <context ref="typescript-type-lit:choice-object-type-literal"/>
-            <context ref="js-lit:choice-number"/>
-            <context ref="js-lit:choice-string"/>
+            <context ref="typescript-type-lit:choice-numeric-type"/>
+            <context ref="js-lit:choice-string" style-ref="typescript:string-type"/>
 
             <!-- <TypeQuery> -->
             <context id="_choice-type-query" style-ref="typescript:type-query" end-parent="true">

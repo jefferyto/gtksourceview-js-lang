@@ -81,6 +81,25 @@
     </context> <!-- /choice-boolean-type -->
 
 
+    <!-- # Numeric literal type
+
+         123
+         0b0101
+         0o777
+         0xfff
+    -->
+
+    <!-- does not include legacy octal integers -->
+    <context id="choice-numeric-type">
+      <include>
+        <context ref="js-lit:_choice-decimal" style-ref="typescript:decimal-type"/>
+        <context ref="js-lit:_choice-binary-integer" style-ref="typescript:binary-integer-type"/>
+        <context ref="js-lit:_choice-octal-integer" style-ref="typescript:octal-integer-type"/>
+        <context ref="js-lit:_choice-hex-integer" style-ref="typescript:hex-integer-type"/>
+      </include>
+    </context> <!-- /choice-numeric-type -->
+
+
     <!-- # This type
 
          this

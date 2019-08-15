@@ -191,7 +191,10 @@ let a: 'string';
 let a: "string";
 
 // Numeric literal type
-let a: 1;
+let a: 123;
+let a: 0b0101;
+let a: 0o777;
+let a: 0xfff;
 
 // Boolean literal type
 let a: true;
