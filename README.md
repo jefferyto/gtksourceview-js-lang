@@ -64,7 +64,7 @@ specifications.)
 
 Then I added language definitions for [TypeScript] (up to 3.5) and [JSX]
 (and TypeScript JSX), by augmenting JavaScript highlighting in the
-correct places with highlighting specific for these languages.
+correct places.
 
 ![Previous TypeScript JSX example highlighted in gedit](images/syntax-madness.png)
 ![Nonsensical TypeScript code highlighted in gedit](images/typescript.png)
