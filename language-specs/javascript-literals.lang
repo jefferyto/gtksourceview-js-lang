@@ -79,7 +79,7 @@
         </define-regex> <!-- /_binary-integer -->
 
         <!-- <BinaryIntegerLiteral> -->
-        <context id="_choice-binary-integer" style-ref="js:base-n-number" end-parent="true">
+        <context id="_choice-binary-integer" style-ref="js:binary-integer" end-parent="true">
           <start extended="true">
             (?&lt;! \%{js:identifier-char} | \. )
             (?=
@@ -95,7 +95,7 @@
         </define-regex> <!-- /_octal-integer -->
 
         <!-- <OctalIntegerLiteral> -->
-        <context id="_choice-octal-integer" style-ref="js:base-n-number" end-parent="true">
+        <context id="_choice-octal-integer" style-ref="js:octal-integer" end-parent="true">
           <start extended="true">
             (?&lt;! \%{js:identifier-char} | \. )
             (?=
@@ -111,7 +111,7 @@
           (?&gt; 0 [xX] [0-9a-fA-F]+ )
         </define-regex> <!-- /_hex-integer -->
 
-        <context id="_choice-hex-integer" style-ref="js:base-n-number" end-parent="true">
+        <context id="_choice-hex-integer" style-ref="js:hex-integer" end-parent="true">
           <start extended="true">
             (?&lt;! \%{js:identifier-char} | \. )
             (?=

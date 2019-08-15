@@ -45,7 +45,10 @@
     <style id="null-value"            name="Null Value"             map-to="def:special-constant"/>
     <style id="boolean"               name="Boolean Value"          map-to="def:boolean"/>
     <style id="decimal"               name="Decimal Number"         map-to="def:decimal"/>
-    <style id="base-n-number"         name="Base-N Number"          map-to="def:base-n-integer"/>
+    <style id="base-n-integer"        name="Base-N Integer"         map-to="def:base-n-integer"/>
+    <style id="binary-integer"        name="Binary Integer"         map-to="js:base-n-integer"/>
+    <style id="octal-integer"         name="Octal Integer"          map-to="js:base-n-integer"/>
+    <style id="hex-integer"           name="Hexadecimal Integer"    map-to="js:base-n-integer"/>
     <style id="escape"                name="Escaped Character"      map-to="def:special-char"/>
     <style id="string"                name="String"                 map-to="def:string"/>
     <style id="included-file"         name="Included File"          map-to="js:string"/>
