@@ -31,9 +31,9 @@
 
   <styles>
     <style id="element"               name="Element"/>
-    <style id="spread-attribute"      name="Spread Attribute"/>
-    <style id="attribute-expression"  name="Attribute Expression"/>
-    <style id="child-expression"      name="Child Expression"/>
+    <style id="spread-attribute"      name="Spread attribute"/>
+    <style id="attribute-expression"  name="Attribute expression"/>
+    <style id="child-expression"      name="Child expression"/>
   </styles>
 
   <keyword-char-class>[a-zA-Z0-9_$-]</keyword-char-class>

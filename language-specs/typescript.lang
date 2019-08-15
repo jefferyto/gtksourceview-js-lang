@@ -31,19 +31,20 @@
 
   <styles>
     <!-- General -->
-    <style id="type-keyword"          name="Type Keyword"             map-to="js:keyword"/>
+    <style id="type-keyword"        name="Type keyword"             map-to="js:keyword"/>
 
     <!-- Type literals -->
-    <style id="basic-type"            name="Basic Type"               map-to="def:type"/>
-    <style id="boolean-type"          name="Boolean Type"             map-to="js:boolean"/>
-    <style id="decimal-type"          name="Decimal Number Type"      map-to="js:decimal"/>
-    <style id="binary-integer-type"   name="Binary Integer Type"      map-to="js:binary-integer"/>
-    <style id="octal-integer-type"    name="Octal Integer Type"       map-to="js:octal-integer"/>
-    <style id="hex-integer-type"      name="Hexadecimal Integer Type" map-to="js:hex-integer"/>
-    <style id="string-type"           name="String Type"              map-to="js:string"/>
+    <style id="basic-type"          name="Basic type"               map-to="def:type"/>
+    <style id="boolean-type"        name="Boolean type"             map-to="js:boolean"/>
+    <style id="decimal-type"        name="Decimal number type"      map-to="js:decimal"/>
+
+    <style id="binary-integer-type" name="Binary integer type"      map-to="js:binary-integer"/>
+    <style id="octal-integer-type"  name="Octal integer type"       map-to="js:octal-integer"/>
+    <style id="hex-integer-type"    name="Hexadecimal integer type" map-to="js:hex-integer"/>
+    <style id="string-type"         name="String type"              map-to="js:string"/>
 
     <!-- Built-in types -->
-    <style id="built-in-library-type" name="Built-in Library Type"    map-to="js:built-in-constructor"/>
+    <style id="built-in-library-type" name="Built-in library type"    map-to="js:built-in-constructor"/>
 
     <!-- The following are for debugging use -->
 

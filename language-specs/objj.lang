@@ -33,7 +33,7 @@
   </metadata>
 
   <styles>
-    <style id="type"              name="Data Type"         map-to="def:type"/>
+    <style id="type"  name="Data type"  map-to="def:type"/>
   </styles>
 
   <keyword-char-class>[a-zA-Z0-9_$]</keyword-char-class>

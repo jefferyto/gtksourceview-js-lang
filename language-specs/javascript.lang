@@ -38,82 +38,82 @@
     <!-- General -->
     <style id="error"                 name="Error"                  map-to="def:error"/>
     <style id="keyword"               name="Keyword"                map-to="def:keyword"/>
-    <style id="reserved-word"         name="Reserved Word"          map-to="def:reserved"/>
+    <style id="reserved-word"         name="Reserved word"          map-to="def:reserved"/>
     <style id="directive"             name="Directive"              map-to="def:preprocessor"/>
 
     <!-- Literals -->
-    <style id="null-value"            name="Null Value"             map-to="def:special-constant"/>
-    <style id="boolean"               name="Boolean Value"          map-to="def:boolean"/>
-    <style id="decimal"               name="Decimal Number"         map-to="def:decimal"/>
-    <style id="base-n-integer"        name="Base-N Integer"         map-to="def:base-n-integer"/>
-    <style id="binary-integer"        name="Binary Integer"         map-to="js:base-n-integer"/>
-    <style id="octal-integer"         name="Octal Integer"          map-to="js:base-n-integer"/>
-    <style id="hex-integer"           name="Hexadecimal Integer"    map-to="js:base-n-integer"/>
-    <style id="escape"                name="Escaped Character"      map-to="def:special-char"/>
+    <style id="null-value"            name="Null value"             map-to="def:special-constant"/>
+    <style id="boolean"               name="Boolean value"          map-to="def:boolean"/>
+    <style id="decimal"               name="Decimal number"         map-to="def:decimal"/>
+    <style id="base-n-integer"        name="Base-n integer"         map-to="def:base-n-integer"/>
+    <style id="binary-integer"        name="Binary integer"         map-to="js:base-n-integer"/>
+    <style id="octal-integer"         name="Octal integer"          map-to="js:base-n-integer"/>
+    <style id="hex-integer"           name="Hexadecimal integer"    map-to="js:base-n-integer"/>
+    <style id="escape"                name="Escaped character"      map-to="def:special-char"/>
     <style id="string"                name="String"                 map-to="def:string"/>
-    <style id="included-file"         name="Included File"          map-to="js:string"/>
-    <style id="regex"                 name="Regular Expression"     map-to="def:string"/>
-    <style id="regex-class"           name="RE Character Class"     map-to="def:special-char"/>
-    <style id="regex-group"           name="RE Group Name"          map-to="def:identifier"/>
-    <style id="regex-flag"            name="RE Flag"                map-to="def:special-constant"/>
-    <style id="template-literal"      name="Template Literal"       map-to="js:string"/>
-    <style id="template-placeholder"  name="Template Placeholder"   map-to="def:preprocessor"/>
+    <style id="included-file"         name="Included file"          map-to="js:string"/>
+    <style id="regex"                 name="Regular expression"     map-to="def:string"/>
+    <style id="regex-class"           name="RE character class"     map-to="def:special-char"/>
+    <style id="regex-group"           name="RE group name"          map-to="def:identifier"/>
+    <style id="regex-flag"            name="RE flag"                map-to="def:special-constant"/>
+    <style id="template-literal"      name="Template literal"       map-to="js:string"/>
+    <style id="template-placeholder"  name="Template placeholder"   map-to="def:preprocessor"/>
 
     <!-- Built-in values -->
-    <style id="built-in-value"        name="Built-in Value"         map-to="def:special-constant"/>
-    <style id="built-in-function"     name="Built-in Function"      map-to="def:builtin"/>
-    <style id="built-in-constructor"  name="Built-in Constructor"   map-to="def:type"/>
-    <style id="built-in-object"       name="Built-in Object"        map-to="def:builtin"/>
-    <style id="built-in-property"     name="Built-in Property"      map-to="def:statement"/>
-    <style id="built-in-method"       name="Built-in Method"        map-to="js:built-in-function"/>
+    <style id="built-in-value"        name="Built-in value"         map-to="def:special-constant"/>
+    <style id="built-in-function"     name="Built-in function"      map-to="def:builtin"/>
+    <style id="built-in-constructor"  name="Built-in constructor"   map-to="def:type"/>
+    <style id="built-in-object"       name="Built-in object"        map-to="def:builtin"/>
+    <style id="built-in-property"     name="Built-in property"      map-to="def:statement"/>
+    <style id="built-in-method"       name="Built-in method"        map-to="js:built-in-function"/>
 
     <!-- The following are for debugging use -->
 
     <!-- General -->
     <style id="identifier"                    name="Identifier"/>
-    <style id="rest-syntax"                   name="Rest Syntax"/>
-    <style id="spread-syntax"                 name="Spread Syntax"/>
-    <style id="array-destructuring"           name="Array Destructuring"/>
-    <style id="object-destructuring"          name="Object Destructuring"/>
+    <style id="rest-syntax"                   name="Rest syntax"/>
+    <style id="spread-syntax"                 name="Spread syntax"/>
+    <style id="array-destructuring"           name="Array destructuring"/>
+    <style id="object-destructuring"          name="Object destructuring"/>
 
     <!-- Literals -->
-    <style id="array-literal"                 name="Array Literal"/>
-    <style id="object-literal"                name="Object Literal"/>
+    <style id="array-literal"                 name="Array literal"/>
+    <style id="object-literal"                name="Object literal"/>
 
     <!-- Functions and classes -->
-    <style id="function-expression"           name="Function Expression"/>
-    <style id="class-expression"              name="Class Expression"/>
+    <style id="function-expression"           name="Function expression"/>
+    <style id="class-expression"              name="Class expression"/>
 
     <!-- Expressions -->
     <style id="grouping"                      name="Grouping"/>
-    <style id="grouping-operator"             name="Grouping Operator"/>
-    <style id="increment-decrement-operator"  name="Increment Decrement Operator"/>
-    <style id="unary-operator"                name="Unary Operator"/>
-    <style id="binary-operator"               name="Binary Operator"/>
-    <style id="comma-operator"                name="Comma Operator"/>
-    <style id="ternary-operator"              name="Ternary Operator"/>
+    <style id="grouping-operator"             name="Grouping operator"/>
+    <style id="increment-decrement-operator"  name="Increment decrement operator"/>
+    <style id="unary-operator"                name="Unary operator"/>
+    <style id="binary-operator"               name="Binary operator"/>
+    <style id="comma-operator"                name="Comma operator"/>
+    <style id="ternary-operator"              name="Ternary operator"/>
     <style id="expression"                    name="Expression"/>
 
     <!-- Statements -->
-    <style id="block-statement"               name="Block Statement"/>
-    <style id="break-statement"               name="Break Statement"/>
-    <style id="continue-statement"            name="Continue Statement"/>
-    <style id="debugger-statement"            name="Debugger Statement"/>
-    <style id="expression-statement"          name="Expression Statement"/>
-    <style id="for-statement"                 name="For Statement"/>
-    <style id="if-statement"                  name="If Statement"/>
-    <style id="else-statement"                name="Else Statement"/>
-    <style id="label-statement"               name="Label Statement"/>
-    <style id="return-statement"              name="Return Statement"/>
-    <style id="switch-statement"              name="Switch Statement"/>
-    <style id="throw-statement"               name="Throw Statement"/>
-    <style id="try-catch-statement"           name="Try Catch Statement"/>
-    <style id="variable-declaration"          name="Variable Declaration"/>
-    <style id="while-statement"               name="While Statement"/>
-    <style id="with-statement"                name="With Statement"/>
+    <style id="block-statement"               name="Block statement"/>
+    <style id="break-statement"               name="Break statement"/>
+    <style id="continue-statement"            name="Continue statement"/>
+    <style id="debugger-statement"            name="Debugger statement"/>
+    <style id="expression-statement"          name="Expression statement"/>
+    <style id="for-statement"                 name="For statement"/>
+    <style id="if-statement"                  name="If statement"/>
+    <style id="else-statement"                name="Else statement"/>
+    <style id="label-statement"               name="Label statement"/>
+    <style id="return-statement"              name="Return statement"/>
+    <style id="switch-statement"              name="Switch statement"/>
+    <style id="throw-statement"               name="Throw statement"/>
+    <style id="try-catch-statement"           name="Try catch statement"/>
+    <style id="variable-declaration"          name="Variable declaration"/>
+    <style id="while-statement"               name="While statement"/>
+    <style id="with-statement"                name="With statement"/>
 
     <!-- Modules -->
-    <style id="export-import-declaration"     name="Export Import Declaration"/>
+    <style id="export-import-declaration"     name="Export import declaration"/>
 
   </styles>
 
