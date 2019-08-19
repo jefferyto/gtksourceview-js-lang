@@ -302,7 +302,7 @@
               <end>\%{_special-property-names}</end>
             </context> <!-- /_choice-special-property-name -->
 
-            <context ref="js:choice-identifier"/>
+            <context ref="js:choice-identifier-name"/>
           </include>
         </context> <!-- /_property-name-content -->
 

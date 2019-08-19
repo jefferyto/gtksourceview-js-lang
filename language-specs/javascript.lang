@@ -403,14 +403,32 @@
       </include>
     </context> <!-- /_reserved-words -->
 
+    <context id="_identifier-names" style-ref="identifier">
+      <match>\%{identifier}</match>
+    </context> <!-- /_identifier-names -->
+
+    <context id="choice-identifier-name" end-parent="true">
+      <start>(?=\%{identifier-start})</start>
+      <end>\%{def:always-match}</end>
+      <include>
+        <!-- no embedded-lang-hooks here -->
+        <!-- no comments here -->
+        <!-- do not extend the context by matching comments or
+             embedded-lang-hooks, which may lead to multiple identifiers -->
+
+        <context id="_identifier-name-content">
+          <include>
+            <context ref="_identifier-names"/>
+          </include>
+        </context> <!-- /_identifier-name-content -->
+
+      </include>
+    </context> <!-- /choice-identifier-name -->
+
     <context id="_identifier-content">
       <include>
         <context ref="_reserved-words"/>
-
-        <context id="_identifier-names" style-ref="identifier">
-          <match>\%{identifier}</match>
-        </context> <!-- /_identifier-names -->
-
+        <context ref="_identifier-names"/>
       </include>
     </context> <!-- /_identifier-content -->
 

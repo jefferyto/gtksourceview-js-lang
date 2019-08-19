@@ -616,11 +616,12 @@ var legacy_octal2 = 007;
 
 a = {};
 a = { prop: 'value' };
+a = { prop: 'value', extends: 1 };
 
 // Trailing comma
 a = {
-    prop1: 'value',
-    prop2: 2,
+    prop: 'value',
+    extends: 1,
 };
 
 // Shorthand property names
