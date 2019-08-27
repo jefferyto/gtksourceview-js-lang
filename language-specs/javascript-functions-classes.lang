@@ -180,6 +180,23 @@
          ({ a: x, b: y = 2}) => { return x + y; }
     -->
 
+    <context id="_arrow-function-body" once-only="true">
+      <start>\%{js:before-next-token}</start>
+      <end>\%{js:before-next-token}</end>
+      <include>
+        <context ref="js:embedded-lang-hooks"/>
+        <context ref="js:comments"/>
+
+        <context id="_arrow-function-body-content">
+          <include>
+            <context ref="_choice-function-body"/>
+            <context ref="js-expr:choice-expression-without-comma"/>
+          </include>
+        </context> <!-- /_arrow-function-body-content -->
+
+      </include>
+    </context> <!-- /_arrow-function-body -->
+
     <!-- <ArrowFunction> -->
     <!-- parenthesized arrow function parameters matched by grouping
          context -->
@@ -192,8 +209,7 @@
 
         <context id="_arrow-function-content">
           <include>
-            <context ref="_choice-function-body"/>
-            <context ref="js-expr:choice-expression-without-comma"/>
+            <context ref="_arrow-function-body"/>
           </include>
         </context> <!-- /_arrow-function-content -->
 

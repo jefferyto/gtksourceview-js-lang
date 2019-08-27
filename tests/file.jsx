@@ -309,6 +309,7 @@ x => -x;
 () => {};
 (x, y) => x + y;
 (x, y) => { return x + y; };
+(x, y) => /* comment */ { return x + y; } /* comment */ ;
 (x) => ({ a: x }); // return object
 
 // Default parameters
