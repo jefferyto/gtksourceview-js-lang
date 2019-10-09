@@ -95,7 +95,7 @@
          https://github.com/Microsoft/TypeScript/blob/master/doc/spec.md
          https://www.typescriptlang.org/
 
-         Supported level: TypeScript 3.5
+         Supported level: TypeScript 3.6
 
          Not supported yet:
          * Decorators: Still an experimental feature of TypeScript and
