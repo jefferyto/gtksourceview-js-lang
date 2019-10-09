@@ -204,6 +204,7 @@ Math.random();
 
 // object keywords
 arguments;
+globalThis; // ES2020
 new.target;
 new . /* comment */ target;
 super;

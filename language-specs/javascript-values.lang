@@ -114,6 +114,7 @@
 
         <context id="_object-keywords" style-ref="js:keyword">
           <keyword>arguments</keyword>
+          <keyword>globalThis</keyword> <!-- ES2020 -->
           <keyword>super</keyword>
           <keyword>this</keyword>
         </context> <!-- /_object-keywords -->

@@ -450,9 +450,6 @@ a = import . /* comment
 a = import // comment
 .meta.__dirname; // incorrectly highlighted
 
-// globalThis (stage 3 proposal)
-globalThis.abc = 200;
-
 // Type arguments for function calls
 fn<string>();
 fn<string, number>();
@@ -756,6 +753,7 @@ Math.random();
 
 // object keywords
 arguments;
+globalThis; // ES2020
 new.target;
 new . /* comment */ target;
 super;

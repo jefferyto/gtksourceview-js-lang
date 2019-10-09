@@ -36,10 +36,6 @@
     <context id="global-values">
       <include>
 
-        <context id="_objects" style-ref="js:built-in-object">
-          <keyword>globalThis</keyword> <!-- globalThis: stage 3 proposal -->
-        </context> <!-- /_objects -->
-
         <!-- import.meta: stage 3 proposal -->
         <context id="_import-meta-object-keyword">
           <start extended="true">

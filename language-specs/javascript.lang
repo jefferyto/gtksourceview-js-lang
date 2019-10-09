@@ -135,6 +135,7 @@
          * import()
          * BigInt
          * Promise.allSettled
+         * globalThis
 
          Features from Annex B of the spec are not highlighted to
          discourage their use, except:
