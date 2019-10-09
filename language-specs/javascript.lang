@@ -133,6 +133,7 @@
          Supported ES2020 proposals:
          * String.prototype.matchAll
          * import()
+         * BigInt
          * Promise.allSettled
 
          Features from Annex B of the spec are not highlighted to

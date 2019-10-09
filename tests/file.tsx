@@ -195,6 +195,11 @@ let a: 123;
 let a: 0b0101;
 let a: 0o777;
 let a: 0xfff;
+// Numeric separators with BigInt
+let a: 1_23n;
+let a: 0b01_01n;
+let a: 0o7_77n;
+let a: 0xf_f_fn;
 
 // Boolean literal type
 let a: true;
@@ -548,10 +553,6 @@ a = import . /* comment
 a = import // comment
 .meta.__dirname; // incorrectly highlighted
 
-// BigInt (stage 3 proposal)
-a = BigInt(100);
-a = 2n + 0b100n - 0x2n * 0o2n;
-
 // globalThis (stage 3 proposal)
 globalThis.abc = 200;
 
@@ -689,6 +690,16 @@ let octal2 = 0O4567;
 // Legacy octal numbers
 var legacy_octal1 = 01;
 var legacy_octal2 = 007;
+
+// BigInt (ES2020)
+var decimal1 = 0n;
+var decimal2 = 123n;
+var hex1 = 0xDEADBEEFn;
+var hex2 = 0Xcafebaben;
+var binary1 = 0b1010n;
+var binary2 = 0B00001111n;
+var octal1 = 0o0123n;
+var octal2 = 0O4567n;
 
 
 /* String */
@@ -831,6 +842,7 @@ parseInt();
 
 // constructors (subset)
 Array();
+BigInt(); // ES2020
 Boolean();
 Date();
 Error();
@@ -894,6 +906,7 @@ array.flat(); // ES2019
 array.flatMap(); // ES2019
 string.matchAll(); // ES2020
 Promise.allSettled(); // ES2020
+BigInt.asUintN(); // ES2020
 
 
 /*

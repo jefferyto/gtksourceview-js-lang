@@ -71,6 +71,7 @@
         <context id="_constructors" style-ref="js:built-in-constructor">
           <keyword>ArrayBuffer</keyword>
           <keyword>Array</keyword>
+          <keyword>BigInt</keyword> <!-- ES2020 -->
           <keyword>Boolean</keyword>
           <keyword>Date</keyword>
           <keyword>Error</keyword>
@@ -222,6 +223,12 @@
           <keyword>isView</keyword>
           <keyword>slice</keyword>
         </context> <!-- /_arraybuffer-methods -->
+
+        <!-- ES2020 -->
+        <context id="_bigint-methods" style-ref="js:built-in-method">
+          <keyword>asIntN</keyword>
+          <keyword>asUintN</keyword>
+        </context> <!-- /_bigint-methods -->
 
         <context id="_dataview-properties" style-ref="js:built-in-property">
           <keyword>buffer</keyword>

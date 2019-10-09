@@ -34,6 +34,16 @@ let octal2 = 0O4567;
 var legacy_octal1 = 01;
 var legacy_octal2 = 007;
 
+// BigInt (ES2020)
+var decimal1 = 0n;
+var decimal2 = 123n;
+var hex1 = 0xDEADBEEFn;
+var hex2 = 0Xcafebaben;
+var binary1 = 0b1010n;
+var binary2 = 0B00001111n;
+var octal1 = 0o0123n;
+var octal2 = 0O4567n;
+
 
 /* String */
 
@@ -175,6 +185,7 @@ parseInt();
 
 // constructors (subset)
 Array();
+BigInt(); // ES2020
 Boolean();
 Date();
 Error();
@@ -238,6 +249,7 @@ array.flat(); // ES2019
 array.flatMap(); // ES2019
 string.matchAll(); // ES2020
 Promise.allSettled(); // ES2020
+BigInt.asUintN(); // ES2020
 
 
 /*

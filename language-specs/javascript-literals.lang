@@ -74,6 +74,25 @@
           <end>\%{_decimal}</end>
         </context> <!-- /_choice-decimal -->
 
+        <define-regex id="_decimal-integer" extended="true">
+          (?&gt;
+            (?: [1-9][0-9]* | 0 )
+          )
+        </define-regex> <!-- /_decimal-integer -->
+
+        <!-- ES2020 -->
+        <!-- <DecimalBigIntegerLiteral> -->
+        <context id="_choice-decimal-big-integer" style-ref="js:decimal" end-parent="true">
+          <start extended="true">
+            (?&lt;! \%{js:identifier-char} | \. )
+            (?=
+              \%{_decimal-integer} n
+              (?! \%{js:identifier-part} | \. )
+            )
+          </start>
+          <end>\%{_decimal-integer}n</end>
+        </context> <!-- /_choice-decimal-big-integer -->
+
         <define-regex id="_binary-integer" extended="true">
           (?&gt; 0 [bB] [01]+ )
         </define-regex> <!-- /_binary-integer -->
@@ -83,11 +102,11 @@
           <start extended="true">
             (?&lt;! \%{js:identifier-char} | \. )
             (?=
-              \%{_binary-integer}
+              \%{_binary-integer} n?
               (?! \%{js:identifier-part} | \. )
             )
           </start>
-          <end>\%{_binary-integer}</end>
+          <end>\%{_binary-integer}n?</end>
         </context> <!-- /_choice-binary-integer -->
 
         <define-regex id="_octal-integer" extended="true">
@@ -99,11 +118,11 @@
           <start extended="true">
             (?&lt;! \%{js:identifier-char} | \. )
             (?=
-              \%{_octal-integer}
+              \%{_octal-integer} n?
               (?! \%{js:identifier-part} | \. )
             )
           </start>
-          <end>\%{_octal-integer}</end>
+          <end>\%{_octal-integer}n?</end>
         </context> <!-- /_choice-octal-integer -->
 
         <!-- <HexIntegerLiteral> -->
@@ -115,11 +134,11 @@
           <start extended="true">
             (?&lt;! \%{js:identifier-char} | \. )
             (?=
-              \%{_hex-integer}
+              \%{_hex-integer} n?
               (?! \%{js:identifier-part} | \. )
             )
           </start>
-          <end>\%{_hex-integer}</end>
+          <end>\%{_hex-integer}n?</end>
         </context> <!-- /_choice-hex-integer -->
 
         <define-regex id="_legacy-octal-integer" extended="true">
