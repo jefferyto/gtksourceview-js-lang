@@ -22,7 +22,7 @@
 -->
 <language id="jsx" name="JSX" version="2.0" _section="Script">
   <metadata>
-    <property name="mimetypes">application/jsx;application/x-jsx;text/jsx</property>
+    <property name="mimetypes">application/jsx;application/x-jsx;text/x-jsx;text/jsx</property>
     <property name="globs">*.jsx</property>
     <property name="line-comment-start">//</property>
     <property name="block-comment-start">/*</property>

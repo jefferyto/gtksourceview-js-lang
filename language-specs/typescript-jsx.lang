@@ -22,7 +22,7 @@
 -->
 <language id="typescript-jsx" name="TypeScript JSX" version="2.0" _section="Script">
   <metadata>
-    <property name="mimetypes">application/tsx;application/x-tsx;text/tsx</property>
+    <property name="mimetypes">application/typescript-jsx;application/x-typescript-jsx;text/x-typescript-jsx;text/typescript-jsx</property>
     <property name="globs">*.tsx</property>
     <property name="line-comment-start">//</property>
     <property name="block-comment-start">/*</property>

@@ -22,7 +22,7 @@
 -->
 <language id="typescript" name="TypeScript" version="2.0" _section="Script">
   <metadata>
-    <property name="mimetypes">application/typescript;application/x-typescript;text/typescript</property>
+    <property name="mimetypes">application/typescript;application/x-typescript;text/x-typescript;text/typescript</property>
     <property name="globs">*.ts</property>
     <property name="line-comment-start">//</property>
     <property name="block-comment-start">/*</property>
