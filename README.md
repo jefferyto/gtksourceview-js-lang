@@ -75,7 +75,7 @@ Objective-J. (I did a semi-rewrite for [Objective-J], as the original
 language definition assumed the language was basically Objective-C.)
 
 [ECMA-262]: https://tc39.es/ecma262/
-[finished ES2020 proposals]: https://github.com/tc39/proposals/blob/034ebab571dd118e2b9d3131b9d588585bb2bddf/finished-proposals.md
+[finished ES2020 proposals]: https://github.com/tc39/proposals/blob/3336d8461b54215b70356de861d2836bc91fd8ef/finished-proposals.md
 [ECMA-402]: https://tc39.es/ecma402/
 [WebAssembly JavaScript Interface]: https://webassembly.github.io/spec/js-api/
 [WebAssembly Web API]: https://webassembly.github.io/spec/web-api/
