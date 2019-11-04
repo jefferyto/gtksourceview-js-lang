@@ -1,5 +1,13 @@
 # GtkSourceView syntax highlighting for JavaScript / TypeScript / JSX
 
+## Merged
+
+These definitions have been [merged]. All future development will occur
+in the parent project ([GtkSourceView]). This repo will not receive any
+more updates.
+
+[merged]: https://gitlab.gnome.org/GNOME/gtksourceview/merge_requests/72
+
 ## Introduction
 
 [GtkSourceView] is the text editing component used by [gedit] and [GNOME
